@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity >=0.5.0 <0.9.0;
-
+import "hardhat/console.sol";
 
 contract Token {
         string public name = "Hardhad token";
@@ -18,6 +18,7 @@ contract Token {
 
 
         function Transfer(address to , uint amount) external {
+            console.log("balances[msg.sender] called", balances[msg.sender]);
             require(balances[msg.sender] >=  amount, "Not ebough tokens");
             balances[msg.sender] -= amount;
             balances[to] += amount; 

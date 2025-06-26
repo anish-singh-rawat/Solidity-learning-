@@ -1,5 +1,5 @@
 {
-  "name": "hardhat",
+  "name": "solidity-learning-",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,6 +16,6 @@
     "chai": "^5.2.0",
     "ethereum-waffle": "^4.0.10",
     "ethers": "^5.8.0",
-    "hardhat": "^2.24.3"
+    "hardhat": "^2.25.0"
   }
 }

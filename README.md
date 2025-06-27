@@ -34,3 +34,90 @@ Daily learning, code snippets, project files, and notes will be added to this re
 ---
 
 **Let's stay consistent and hit the target! 💪**
+
+# 1st week reading...
+
+
+**Basic Data types**
+
+
+## Integer data type 
+- use uint and int data type in our project.
+
+## Bool data type 
+- use Bool data type
+
+## Address data type 
+- use to save or store the contract or wallet address
+
+
+
+
+## Reference data types
+
+**Strings**
+
+**Arrays**
+
+**Mapping**
+
+**Struct**
+
+
+
+## Data Location
+
+**Memory**
+- lifetime is limited to an external function call.
+
+**Storage**
+- the location where the state variables are stored, where the lifetime is limited to the lifetime of a contract.
+
+**Call data**
+- special data location the contains the function arguments.
+
+
+
+## Daily usefull keywords
+
+**View**
+- whenever we are reading the state variable we write this view keyword.
+
+
+**Pure**
+- whenever reading or writing in local variable on that time we use it.
+
+
+**No Keyword**
+- whenever we change the state of globle variable on that time we don't need to use any keyword.
+
+**Conditions**
+- use if, else, revert, modifier and require statement conditions for testing, also use bool data type for returning boolean data type.
+
+
+
+## Loops
+
+**While lopp**
+- learn syntex of while loop.
+
+
+**do while lopp**
+- learn syntex of do while loop.
+
+
+**For loop**
+- learn syntex of for loop.
+
+
+
+## Hardhad Testing
+
+**Writing code**
+- learn about how to write test code using ether.js library usign hardhad for our solidity smart contract.
+
+**Testing code**
+- test the whole backend solidity project for test there backend api using hardhad and ether.js library.
+
+**Deploying code**
+- deploy our contract on testnet using hardhat and alkaimy for testing it in test network.

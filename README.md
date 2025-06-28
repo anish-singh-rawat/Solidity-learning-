@@ -68,13 +68,126 @@ Daily learning, code snippets, project files, and notes will be added to this re
 ## Data Location
 
 **Memory**
-- lifetime is limited to an external function call.
+- lifetime is limited to an external function call. (majorly we use it when we use refrence data type in funcitons argument)
+- we can modify the value of function arguments variable while using refrence data types.
+- memmory keyword also can be used inside a function but it can't change the value of state variable.
 
 **Storage**
 - the location where the state variables are stored, where the lifetime is limited to the lifetime of a contract.
+- when we declare state variable they store inside the storage as a permanentn formate.
+- storate keyword help us to access the state variable inside the function to modify state varibale 
 
 **Call data**
-- special data location the contains the function arguments.
+- special data location that contains the function arguments.
+- if we use call data with function argument in refrence data type than we can't change the any value of function arguments variable 
+- calll data can only be used with function arguments.
+
+
+
+**Struct data type**
+-   struct data type is usually a composite of other existing data type. it can hold mutiple data types like (String , number , array other...)
+- usually it is use to store the value for details where string, number and array are needed.
+
+struct Studnet {
+    string name;
+    uint roll;
+    boll pass; 
+    string[] subjects; 
+}
+
+Student public s;
+
+
+**Array of struct**
+-  struct Studnet {
+    string name;
+    uint roll;
+    boll pass; 
+    string[] subjects; 
+}
+
+Student[4] public s;
+
+let's assumet we want to store 4 studnet data.
+
+
+**Mapping**
+- Concepy of key and value.
+- mapping(key => value).
+- mapping(uint => string) public data.
+- using the map it don't create empty slots if the data does't present
+-like : if data is in 1,4,6 index then there will be no empty index : 0,2,3,5 but in the case of array it create empty slots if data doesn't present.
+- maping are much faster than array.
+- mapping store data in non - contiguous fashion while array store data in a contuguous fashion.
+- mapping are not-ierable while array are iterable  
+
+
+**Nested Mapping**
+- mapping(address => mapping(uint => bool/ data)) private check;
+- Nested maaping are just like a 2D array where we store data in table (row and coloum formate)
+
+
+
+## Globle variable of solidity 
+
+
+**Special Variables and Functions**
+- There are special variables and functions which always exist in the global namespace and are mainly used to provide information about the blockchain or are general-use utility functions.
+
+
+**blockhash(uint blockNumber)** 
+- returns (bytes32): hash of the given block when blocknumber is one of the 256 most recent blocks; otherwise returns zero
+
+**blobhash(uint index)** 
+- returns (bytes32): versioned hash of the index-th blob associated with the current transaction. A versioned hash consists of a single byte representing the version (currently 0x01), followed by the last 31 bytes of the SHA256 hash of the KZG commitment (EIP-4844). Returns zero if no blob with the given index exists.
+
+**block.basefee (uint):** 
+- current block’s base fee (EIP-3198 and EIP-1559)
+
+**block.blobbasefee (uint):** 
+- current block’s blob base fee (EIP-7516 and EIP-4844)
+
+**block.chainid (uint):**
+- current chain id
+
+**block.coinbase (address payable):**
+- current block miner’s address
+
+**block.difficulty (uint):**
+- current block difficulty (EVM < Paris). For other EVM versions it behaves as a deprecated alias for block prevrandao (EIP-4399 )
+
+
+**block.gaslimit (uint):** 
+- current block gaslimit
+
+**block.number (uint):**
+- current block number
+
+**block.prevrandao (uint):** random number provided by the beacon chain (EVM >= Paris)
+
+**block.timestamp (uint):** 
+- current block timestamp as seconds since unix epoch
+
+**gasleft() returns (uint256):** 
+- remaining gas
+
+**msg.data (bytes calldata):** 
+- complete calldata
+
+**msg.sender (address):** 
+- sender of the message (current call)
+
+**msg.sig(bytes4):** 
+- first four bytes of the calldata (i.e. function identifier)
+
+**msg.value (uint):** 
+- number of wei sent with the message
+
+**tx.gasprice (uint):** 
+- gas price of the transaction
+
+**tx.origin (address):** 
+-sender of the transaction (full call chain)
 
 
 
@@ -87,6 +200,8 @@ Daily learning, code snippets, project files, and notes will be added to this re
 **Pure**
 - whenever reading or writing in local variable on that time we use it.
 
+**Memory Keyword**
+- whenevery we use any refrence data type in our function at that time we use memory keyword
 
 **No Keyword**
 - whenever we change the state of globle variable on that time we don't need to use any keyword.
@@ -94,7 +209,8 @@ Daily learning, code snippets, project files, and notes will be added to this re
 **Conditions**
 - use if, else, revert, modifier and require statement conditions for testing, also use bool data type for returning boolean data type.
 
-
+**Payable**
+- this keyword is use to send the token transaction in ethereun 
 
 ## Loops
 
@@ -121,3 +237,21 @@ Daily learning, code snippets, project files, and notes will be added to this re
 
 **Deploying code**
 - deploy our contract on testnet using hardhat and alkaimy for testing it in test network.
+
+
+
+# Solidity Projects :
+
+
+## Lotterly winner
+- create a samrt contract for lottery winner where the user need to pay at least 1 Ether to enter in the game and only owner of the contract can pick the winner based on random function not from owner end and after getting the winner all the ethereum will be transfer in there account.
+
+
+## Crowdfunding
+- Crowdfunding is the practice of funding a project or venture by raising money from a large number of people.
+- we are create a smart contract on ethereum so contributer will fund ether to our smart contract and this smart contract will fund ether to good  cause or whatever cuase that has been submited. 
+- though this we are totally replacing centeral autority from this smart contract where we are going to mention each and every roles and smart contract will be publically  
+
+
+## EventOrgnization
+- 

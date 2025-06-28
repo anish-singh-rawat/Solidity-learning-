@@ -254,4 +254,4 @@ let's assumet we want to store 4 studnet data.
 
 
 ## EventOrgnization
-- 
+- EventOrganization is a great platform that allows any user to create an event. Other users can benefit from the event by purchasing tickets. If a user wants to transfer their ticket to someone else, they can do so as well.

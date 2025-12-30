@@ -1,8 +1,234 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/anishsinghrawat/learning/Solidity-learning-/contracts/Token.sol": {
-      "lastModificationDate": 1750977521030,
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/ArrayMapping.sol": {
+      "lastModificationDate": 1766560884927,
+      "contentHash": "dfec8a331215f882f9e6066b11292022",
+      "sourceName": "contracts/ArrayMapping.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ArrayMapping"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1767072409938,
+      "contentHash": "681c532e816169606d13a5fe8b475074",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/sendEther.sol": {
+      "lastModificationDate": 1766560884929,
+      "contentHash": "7ea355be86fa0a1bfab3832e713952dc",
+      "sourceName": "contracts/sendEther.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SendEther"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/modifier.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "4e227795d5d7f42d4165c77390ed76da",
+      "sourceName": "contracts/modifier.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Modifier"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/lotterySmartContract.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "ce156a7838aeb93211308b72edcebf4d",
+      "sourceName": "contracts/lotterySmartContract.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "lotteryContract"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/address.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "258f5fcd89bc09a635d07c3411e4d72e",
+      "sourceName": "contracts/address.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "AddressDataType"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/Token.sol": {
+      "lastModificationDate": 1766560884928,
       "contentHash": "658438e22a242530aace5e95f6b10812",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
@@ -39,10 +265,390 @@
         "Token"
       ]
     },
-    "/Users/anishsinghrawat/learning/Solidity-learning-/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1750977606679,
-      "contentHash": "681c532e816169606d13a5fe8b475074",
-      "sourceName": "hardhat/console.sol",
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/Struct.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "1429ac3d258c933ace555ebb348ab3ac",
+      "sourceName": "contracts/Struct.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ArrayOfStruct"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/NestedMapping.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "943d8a2ca67c2546e0b38f52e7bea5d6",
+      "sourceName": "contracts/NestedMapping.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "NestedMapping"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/Mapping.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "ac738a5f1ca8ca0355d87c5bf6129307",
+      "sourceName": "contracts/Mapping.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Mappings"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/Loop.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "91cb59bf268fa5cc3379282409c92a6a",
+      "sourceName": "contracts/Loop.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Loops"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/GlobalVariable.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "c66284232bd21c567200081a600b4d36",
+      "sourceName": "contracts/GlobalVariable.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GlobalVariable"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/FixArray.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "ea1778ba9e8b52b5afcea34af48157a5",
+      "sourceName": "contracts/FixArray.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Array"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/EventOrgnization.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "f64ba68e87fd3a98ba6a8bdf5c3fc422",
+      "sourceName": "contracts/EventOrgnization.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "EventOrgnization"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/DynamicArr.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "1e7aa3fe1dc5212b136957a5a3a3f822",
+      "sourceName": "contracts/DynamicArr.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "DynamicArray"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/CrowdFunding.sol": {
+      "lastModificationDate": 1766560884928,
+      "contentHash": "a632e851d79c48d1a9f2fe5227223014",
+      "sourceName": "contracts/CrowdFunding.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CrowdFunding"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/Conditions.sol": {
+      "lastModificationDate": 1766560884927,
+      "contentHash": "17573b10971095705906929166584a0c",
+      "sourceName": "contracts/Conditions.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Conditions"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/BuyCoffee.sol": {
+      "lastModificationDate": 1766641071921,
+      "contentHash": "015b310dc03e386f3168ca42209d2fd7",
+      "sourceName": "contracts/BuyCoffee.sol",
       "solcConfig": {
         "version": "0.8.28",
         "settings": {
@@ -69,10 +675,342 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">=0.4.22 <0.9.0"
+        "^0.8.20"
       ],
       "artifacts": [
-        "console"
+        "BuyCoffee"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/ChainlinkPriceConsumer.sol": {
+      "lastModificationDate": 1767073595259,
+      "contentHash": "69ac0fe5d363d894440e2b5b29822bb4",
+      "sourceName": "contracts/ChainlinkPriceConsumer.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ChainlinkPriceConsumer"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1767071161092,
+      "contentHash": "64a3f906dc7696aa3c9fa8454b673be7",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/MockChainlinkOracle.sol": {
+      "lastModificationDate": 1767057365071,
+      "contentHash": "01318a7c248911cbb571864494491073",
+      "sourceName": "contracts/MockChainlinkOracle.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MockChainlinkOracle"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/MockPythOracle.sol": {
+      "lastModificationDate": 1767057365085,
+      "contentHash": "b4a81da9ac8e319254009dc68fa41a15",
+      "sourceName": "contracts/MockPythOracle.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MockPythOracle"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/PythPriceConsumer.sol": {
+      "lastModificationDate": 1767071073390,
+      "contentHash": "4cfb96a01b8a55370d240bf6f10f5e3c",
+      "sourceName": "contracts/PythPriceConsumer.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@pythnetwork/pyth-sdk-solidity/IPyth.sol",
+        "@pythnetwork/pyth-sdk-solidity/PythStructs.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PythPriceConsumer"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/node_modules/@pythnetwork/pyth-sdk-solidity/IPyth.sol": {
+      "lastModificationDate": 1767070921197,
+      "contentHash": "4d5ed039c7273f4b9ae152f834f739e7",
+      "sourceName": "@pythnetwork/pyth-sdk-solidity/IPyth.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PythStructs.sol",
+        "./IPythEvents.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPyth"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/node_modules/@pythnetwork/pyth-sdk-solidity/PythStructs.sol": {
+      "lastModificationDate": 1767070921199,
+      "contentHash": "f43da46300095c422885907eb6f25052",
+      "sourceName": "@pythnetwork/pyth-sdk-solidity/PythStructs.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PythStructs"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/node_modules/@pythnetwork/pyth-sdk-solidity/IPythEvents.sol": {
+      "lastModificationDate": 1767070921197,
+      "contentHash": "706e4e13d1848923ce42834f849033e1",
+      "sourceName": "@pythnetwork/pyth-sdk-solidity/IPythEvents.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPythEvents"
+      ]
+    },
+    "/Users/mac/DemoProjects/Solidity-learning-/contracts/QuickStarter.sol": {
+      "lastModificationDate": 1766571440752,
+      "contentHash": "e2f75115f9266c2dfaf1cbdbf8afbe50",
+      "sourceName": "contracts/QuickStarter.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "QuickStarter"
       ]
     }
   }
